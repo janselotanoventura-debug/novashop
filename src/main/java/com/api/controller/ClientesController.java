@@ -36,7 +36,7 @@ public class ClientesController {
         ClientesEntity clientesEntity = clientesService.buscarClientes(id);
         clientesService.eliminarClientes(clientesEntity);
 
-        return "Cliente eliminado con exito";
+        return "Cliente eliminado con exito!";
 
     }
 
